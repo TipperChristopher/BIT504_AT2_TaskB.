@@ -65,7 +65,6 @@ public class Pong extends JFrame {
 		repaint();
 	}
 	
-	public class AL extends KeyAdapter {
 		@Override
 		public void keyPressed(KeyEvent e) {
 			b.p1.keyPressed(e);
@@ -76,6 +75,4 @@ public class Pong extends JFrame {
 			b.p1.keyReleased(e);
 			b.p2.keyReleased(e);
 		}
-		
-	}
 }
